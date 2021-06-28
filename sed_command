@@ -1,0 +1,4 @@
+This command takes example.s to input then it
+deletes 1st and 3rd string and substitures '5th' to 'fifth'
+
+cat example.s | sed  -e '1d' -e '3d' -e 's/5/fif/'
